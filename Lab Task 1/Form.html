@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Form</title>
+	<style>
+		div {
+			margin:75px; 
+		}
+	</style>
+</head>
+<body>
+  <h1 style="text-align: center;">Student Registration Form</h1>
+	<div>
+	<form action="" method="post">
+		<p>Student Name :</p>
+		<input type="text" name="name1" placeholder="First Name" id="">
+		<input type="text" name="name2" placeholder="Middle Name" id="">
+		<input type="text" name="name3" placeholder="Third Name" id="">
+		<p>Birth Date :</p>
+		<input type="date">
+		<p>Gender :</p>
+		<input type="radio" name="male">Male
+		<input type="radio" name="female">Female
+		<input type="radio" name="other">Other
+		<p>Address :</p>
+		<input type="text" name="house" placeholder="House" id="">
+		<input type="text" name="street" placeholder="Street" id=""><br>
+		<input type="text" name="city" placeholder="City" id="">
+		<input type="text" name="state" placeholder="State / Province" id=""><br>
+		<input type="text" name="code" placeholder="Postal / Zip Code" id="">
+		<p>E-mail Address :</p>
+		<input type="email" name="email" placeholder="E-mail" id="">
+		<p>Phone Number :</p>
+		<input type="number" name="phone" placeholder="Phone" id="">
+		<p>Course :</p>
+		<select name="course" id="">
+			<option value="cse">CSE</option>
+			<option value="eee">EEE</option>
+			<option value="bba">BBA</option>
+			<option value="en">English</option>
+			<option value="llb">Law</option>
+		</select>
+		<br>
+		<p>Additional Comments :</p>
+		<textarea name="description" id="" cols="50" rows="5"></textarea>
+		<br>
+		<br>
+		<input type="submit">
+	</form>
+	</div>
+</body>
+</html>
